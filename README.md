@@ -4,6 +4,19 @@
 
 O Radar RMT PokeIdle reúne ferramentas de monitoramento e gerenciamento de compras e vendas em uma interface integrada ao jogo.
 
+## 🔐 Segurança e privacidade do jogador
+
+**Sua conta e suas configurações merecem transparência.** O Radar RMT foi desenvolvido para funcionar diretamente na sessão já aberta do PokeIdle, sem exigir que você informe sua senha à extensão.
+
+- **Sem login adicional:** a extensão usa a sessão do jogo que já está aberta no Chrome ou IdleDeck; você não precisa digitar sua senha no Radar RMT.
+- **Acesso limitado ao jogo:** na versão 0.20.35, o manifesto restringe a atuação da extensão a páginas de `https://pokeidle.io/`.
+- **Preferências locais:** as regras e configurações do Radar são armazenadas localmente pelo navegador, usando o armazenamento da extensão.
+- **Comunicação com o PokeIdle:** consultas e comandos de compra utilizam a conexão já estabelecida pelo jogo. A extensão consulta também um catálogo público de itens do próprio PokeIdle para validar preços.
+- **Controle das automações:** você decide quais ordens ativar, seus filtros e seus limites. Para evitar compras duplicadas, uma compra sem confirmação não deve ser repetida automaticamente.
+
+**Atenção:** esta é uma versão beta. Automações podem realizar compras e consumir moedas ou gemas da sua conta; revise os limites antes de ativá-las. Nenhuma extensão é isenta de riscos, e este projeto não possui certificação independente de segurança. Baixe somente arquivos disponibilizados neste repositório e confira as permissões na instalação.
+
+
 ## ✨ Funcionalidades
 
 - 🔎 **Radar RMT:** acompanhe oportunidades no mercado do jogo.
